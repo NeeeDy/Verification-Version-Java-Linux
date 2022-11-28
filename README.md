@@ -35,3 +35,5 @@ Extrait de la ligne 15 :
 ```sh
 xdg-open 'https://www.techspot.com/downloads/7407-java-se-16.html#download_scroll'
 ```
+
+** Script shell basé sur le script batch de FloRobart ( https://github.com/FloRobart ) **
