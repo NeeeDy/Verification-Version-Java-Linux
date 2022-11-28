@@ -3,7 +3,6 @@ Permet de savoir si **Java** est installé sur l'ordinateur sur lequel ce script
 Si Java est installée, mais n'a pas la bonne version, le script affiche une boite de dialogue interne au terminal permettant de télécharger automatiquement Java jdk 16.
 
 1. Lancement du script
-    * Interface graphique Linux
     * Terminal Linux
 2. Modification du script
     * Changer les versions valides
@@ -33,7 +32,7 @@ Si vous voulez changer la version de Java installée en cas d'absence de Java ou
 
 Extrait de la ligne 15 :
 ```sh
-xdg-open 'https://www.techspot.com/downloads/7407-java-se-16.html#download_scroll'
+xdg-open 'https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140a1a0a56260d7df5d40bf&file=9977' 
 ```
 
 **Script shell basé sur le script batch de FloRobart ( https://github.com/FloRobart/detecte_java-version/ )**
