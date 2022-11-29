@@ -35,4 +35,6 @@ Extrait de la ligne 15 :
 xdg-open 'https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140a1a0a56260d7df5d40bf&file=9977' 
 ```
 
+Il est important de noter que sous le lien de la ligne 15 se trouve un autre lien au cas où le premier ne serais plus valide. 
+
 **Script shell basé sur le script batch de FloRobart ( https://github.com/FloRobart/detecte_java-version/ )**

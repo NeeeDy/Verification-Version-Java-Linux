@@ -12,7 +12,9 @@ javaInvalide()
 	fi
 	if [ $? -eq 0 ]
 	then
-		xdg-open 'https://www.techspot.com/downloads/7407-java-se-16.html#download_scroll'
+		xdg-open 'https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140a1a0a56260d7df5d40bf&file=9977' 
+		# Au cas où le 1er lien ne marche pas
+		#'https://www.techspot.com/downloads/7407-java-se-16.html#download_scroll'
 	fi
 
 	return 0
