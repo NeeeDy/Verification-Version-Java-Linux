@@ -15,7 +15,7 @@ Pour lancer le script, il existe une seule solution, via un terminal.
 ### Terminal Linux
 Après avoir téléchargé le script, ouvrez un terminal, puis placer vous dans le répertoire où se situe le script, à l'aide de la commande "cd".
 
-Une fois le terminal ouvert dans le bon répertoire écrivez `./verifJavaVersion.sh` .
+Une fois le terminal ouvert dans le bon répertoire écrivez `chmod u+x verifJavaVersion.sh` puis `./verifJavaVersion.sh` .
 
 ## 2. Modification du script
 ### Changer les versions valides
