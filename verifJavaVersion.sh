@@ -12,7 +12,7 @@ javaInvalide()
 	fi
 	if [ $? -eq 0 ]
 	then
-		xdg-open 'https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140a1a0a56260d7df5d40bf&file=9977' 
+		xdg-open 'https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140a1a0a56260d7df5d40bf&file=9977' > /dev/null 2>&1
 		# Au cas où le 1er lien ne marche pas
 		#'https://www.techspot.com/downloads/7407-java-se-16.html#download_scroll'
 	fi
@@ -30,13 +30,12 @@ javaValide()
 
 
 # verification de l'existence de java
-java --version > a.txt #redirection vers un fichier, pour éviter de poluer le terminal
+java --version > /dev/null 2>&1 #redirection vers un fichier, pour éviter de poluer le terminal
 
 if [ $? -ne 0 ]
 then
 	javaInvalide 0
 fi
-rm -f a.txt
 
 version=$(java --version | cut -d ' ' -f2 | cut -d '.' -f1 | head -1)
 
